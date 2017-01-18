@@ -2582,6 +2582,11 @@ p.copyright-info {
 
 
 @media screen and (max-width: 428px) {
+
+	body {
+		min-width: 428px;
+	}
+
 	div.profile-img-decorator {
 		position: absolute;
 		left: 27%;
