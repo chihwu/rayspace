@@ -3,11 +3,30 @@
 <html lang="en">
 	<head>
 	  <title>Raymond(ChihYung) Wu</title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <link rel="stylesheet" href="jquery.circular-carousel.css" />
-	  <link rel="stylesheet" href="style.css">
-	  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Roboto+Slab" rel="stylesheet">
+
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="apple-touch-icon" sizes="57x57" href="images/logo_icons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="images/logo_icons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/logo_icons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="images/logo_icons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/logo_icons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="images/logo_icons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="images/logo_icons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="images/logo_icons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/logo_icons/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="images/logo_icons/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/logo_icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="images/logo_icons/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/logo_icons/favicon-16x16.png">
+		<link rel="manifest" href="images/logo_icons/manifest.json">
+		<link rel="stylesheet" href="jquery.circular-carousel.css" />
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Roboto+Slab" rel="stylesheet">
 	  
 	</head>
 	<body>
