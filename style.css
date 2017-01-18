@@ -632,6 +632,14 @@ p.copyright-info {
 
 @media screen and (max-width: 1260px) {
 
+
+	div.profile-img-decorator {
+		position: absolute;
+		left: 42%;
+		top: -3.6em;
+		width:130px;
+	}
+
 	div.section-div-content-subdiv {
 		width: 31%;
 
