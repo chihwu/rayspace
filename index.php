@@ -43,7 +43,7 @@
 					<img src="images/Ray_logo.png" />
 				</div>
 				<div class="profile-img-inner-div">
-					<img src="images/Raymond_black_white.png" />
+					<img src="images/Raymond.png" />
 				</div>
 				<div class="profile-caption">
 					<p>HELLO, I'M RAYMOND</p>
@@ -134,58 +134,70 @@
 						<div class="section-div-content-subdiv">
 
 							<div class="website-img-div-overlay">
-								<p>Click Me</p>
+								<div class="website-img-div-overlay-btn">Click Me</div>
 							</div>
 							
 							<div class="website-img-div">
 								<a href="http://bookswap.space/home"><img src="images/websites/bookswap.png" /></a>
 							</div>
+							<div class="website-img-div-bg">
+							</div>
 						</div>
 
 						<div class="section-div-content-subdiv">
 							<div class="website-img-div-overlay">
-								<p>Click Me</p>
+								<div class="website-img-div-overlay-btn">Click Me</div>
 							</div>
 							<div class="website-img-div">
 								<a href="http://connoisseurs.space/"><img src="images/websites/connoisseurs.png"/></a>
 							</div>
+							<div class="website-img-div-bg">
+							</div>
 						</div>
 
 						<div class="section-div-content-subdiv">
 							<div class="website-img-div-overlay">
-								<p>Click Me</p>
+								<div class="website-img-div-overlay-btn">Click Me</div>
 							</div>
 							<div class="website-img-div">
 								<a href="http://www.cicdofboston.com/"><img src="images/websites/cicd.png"/></a>
 							</div>
+							<div class="website-img-div-bg">
+							</div>
 						</div>
 					</div>
 
 					<div class="section-div-content">
 						<div class="section-div-content-subdiv">
 							<div class="website-img-div-overlay">
-								<p>Click Me</p>
+								<div class="website-img-div-overlay-btn">Click Me</div>
 							</div>
 							<div class="website-img-div">
 								<a href="http://128.197.103.76/"><img src="images/websites/BU_MET_research.png" /></a>
 							</div>
+							<div class="website-img-div-bg">
+							</div>
 						</div>
 
 						<div class="section-div-content-subdiv">
 							<div class="website-img-div-overlay">
-								<p>Click Me</p>
+								<div class="website-img-div-overlay-btn">Click Me</div>
 							</div>
 							<div class="website-img-div">
 								<a href="http://fu-xin-tang.com/"><img src="images/websites/fu-xin-tang.png"/></a>
 							</div>
+							<div class="website-img-div-bg">
+							</div>
 						</div>
 
 						<div class="section-div-content-subdiv">
 							<div class="website-img-div-overlay">
-								<p>Click Me</p>
+								<div class="website-img-div-overlay-btn">Click Me</div>
 							</div>
 							<div class="website-img-div">
 								<a href="https://enigmatic-temple-97730.herokuapp.com"><img src="images/websites/samarth_bais_site.png"/></a>
+							</div>
+							<div class="website-img-div-bg">
 							</div>
 						</div>
 					</div>
@@ -193,19 +205,23 @@
 					<div class="section-div-content">
 						<div class="section-div-content-subdiv">
 							<div class="website-img-div-overlay">
-								<p>Click Me</p>
+								<div class="website-img-div-overlay-btn">Click Me</div>
 							</div>
 							<div class="website-img-div">
 								<a href="http://108.7.239.77:8088/wu/database2/"><img src="images/websites/infuse-media.png" /></a>
+							</div>
+							<div class="website-img-div-bg">
 							</div>
 						</div>
 
 						<div class="section-div-content-subdiv">
 							<div class="website-img-div-overlay">
-								<p>Click Me</p>
+								<div class="website-img-div-overlay-btn">Click Me</div>
 							</div>
 							<div class="website-img-div">
 								<a href="http://infusemedia.com/"><img src="images/websites/infuse-website.png" /></a>
+							</div>
+							<div class="website-img-div-bg">
 							</div>
 						</div>
 					</div>

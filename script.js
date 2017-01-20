@@ -54,22 +54,22 @@ $(document).ready(function() {
 		});
 
 
-		$("div.section-div-content-subdiv").mouseenter(function(e) {
+		// $("div.section-div-content-subdiv").mouseenter(function(e) {
 		
-			if ($( window ).width() > 930) {
-				$(this).find("div.website-img-div-overlay").fadeIn("slow");
-				$(this).find("div.website-img-div-overlay p").fadeIn("slow");
-			}
+		// 	if ($( window ).width() > 930) {
+		// 		$(this).find("div.website-img-div-overlay").fadeIn("slow");
+		// 		$(this).find("div.website-img-div-overlay p").fadeIn("slow");
+		// 	}
 			
-		});
+		// });
 
 
-		$("div.section-div-content-subdiv").mouseout(function(e) {
-			if ($( window ).width() > 930) {
-				$(this).find("div.website-img-div-overlay").fadeOut("slow");
-				$(this).find("div.website-img-div-overlay p").fadeOut("slow");
-			}
-		});
+		// $("div.section-div-content-subdiv").mouseout(function(e) {
+		// 	if ($( window ).width() > 930) {
+		// 		$(this).find("div.website-img-div-overlay").fadeOut("slow");
+		// 		$(this).find("div.website-img-div-overlay p").fadeOut("slow");
+		// 	}
+		// });
 
 
 });

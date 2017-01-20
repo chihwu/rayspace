@@ -165,6 +165,7 @@ div.section-div-content-subdiv {
 	float: left;
 	/*border: 1px solid red;*/
 	margin-bottom: 4em;
+	position: relative;
 }
 
 div.section-div-content-subdiv-title p {
@@ -190,20 +191,6 @@ div.section-div-content-subdiv-bar-decorator {
 }
 
 
-div.website-img-div {
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-	border-radius: 150px;
-	cursor: pointer;
-
-}
-
-div.website-img-div img {
-	width: 300px;
-}
-
-
 div.section-div-title-decorator-subbar {
 	width: 50%;
 	height: 3px;
@@ -217,31 +204,70 @@ div.section-div-sub-decorator-div {
 	clear: both;
 }
 
-div.website-img-div-overlay {
-	position: absolute;
+div.website-img-div {
 	width: 300px;
 	height: 300px;
 	overflow: hidden;
 	border-radius: 150px;
-	z-index: 100;
-	background-color: black;
-	opacity: 0.7;
-    filter: alpha(opacity=70);
-    display: none;
-    cursor: pointer;
-  
+	cursor: pointer;
+
+	opacity: 1;
+	transition: .5s ease;
+    backface-visibility: hidden;
 }
 
-div.website-img-div-overlay2 {
+div.website-img-div img {
+	width: 300px;
+}
+
+div.website-img-div-overlay {
 	position: absolute;
-	border-radius: 150px;
-	z-index: 110;
-	
-    display: none;
+	/*width: 300px;
+	height: 300px;*/
+	/*overflow: hidden;*/
+	/*border-radius: 150px;
+	z-index: 100;
+	background-color: black;*/
+	opacity: 0;
+    /*filter: alpha(opacity=70);*/
     cursor: pointer;
+  	top: 50%;
+  	left: 48%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transition: .5s ease;
 }
 
-div.website-img-div-overlay p {
+div.website-img-div-bg {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background-color: #2a2a2a;
+	z-index: -5;
+	border-radius: 150px;
+	top: 0;
+}
+
+div.section-div-content-subdiv:hover .website-img-div  {
+	opacity: 0.1;
+}
+
+div.section-div-content-subdiv:hover .website-img-div-overlay {
+	opacity: 1;
+	
+}
+
+div.website-img-div-overlay-btn {
+	background-color: #e8634e;
+	color: white;
+	font-size: 1.7em;
+  	padding: 16px 26px;
+  	opacity: 1;
+  	font-family: 'Roboto Slab', serif;
+}
+
+
+/*div.website-img-div-overlay p {
 	font-family: 'Roboto Slab', serif;
 	color: white;
 	z-index: 120;
@@ -250,7 +276,7 @@ div.website-img-div-overlay p {
 	top: 45%;
 	font-size: 2.5em;
 	color: #e8634e;
-}
+}*/
 
 div.section-div-subtitle {
 	font-family: 'Roboto Slab', serif;
@@ -416,12 +442,32 @@ p.copyright-info {
 		margin-top: 7em;
 		clear: both;
 	}
+
+	div.website-img-div-overlay {
+		position: absolute;
+		opacity: 0;
+	    cursor: pointer;
+	  	top: 50%;
+	  	left: 52%;
+	  	transform: translate(-50%, -50%);
+	  	-ms-transform: translate(-50%, -50%);
+	  	transition: .5s ease;
+	}
+
+	div.website-img-div-overlay-btn {
+		background-color: #e8634e;
+		color: white;
+		font-size: 1.5em;
+	  	padding: 16px 24px;
+	  	opacity: 1;
+	  	font-family: 'Roboto Slab', serif;
+	}
 }
 
 
 @media screen and (max-width: 1356px) {
 
-	div.section-div-content-subdiv {
+	/*div.section-div-content-subdiv {
 		width: 30%;
 
 		float: left;
@@ -443,30 +489,54 @@ p.copyright-info {
 	}
 
 
-	div.website-img-div-overlay {
+	div.website-img-div-bg {
 		position: absolute;
 		width: 280px;
 		height: 280px;
-		overflow: hidden;
+		background-color: #2a2a2a;
+		z-index: -5;
 		border-radius: 150px;
-		z-index: 100;
-		background-color: black;
-		opacity: 0.7;
-	    filter: alpha(opacity=70);
-	    display: none;
-	    cursor: pointer;
+		top: 0;
 	}
 
-	div.website-img-div-overlay p {
-		font-family: 'Roboto Slab', serif;
-		color: white;
-		z-index: 120;
-		position: absolute;
-		left: 20%;
-		top: 45%;
-		font-size: 2.5em;
-		color: #e8634e;
+	div.section-div-content-subdiv:hover .website-img-div  {
+		opacity: 0.1;
 	}
+
+	div.section-div-content-subdiv:hover .website-img-div-overlay {
+		opacity: 1;
+		
+	}
+
+	div.website-img-div-overlay-btn {
+		background-color: #e8634e;
+		color: white;
+		font-size: 1.7em;
+	  	padding: 16px 26px;
+	  	opacity: 1;
+	  	font-family: 'Roboto Slab', serif;
+	}
+
+	div.website-img-div-overlay {
+		position: absolute;
+		opacity: 0;
+	    cursor: pointer;
+	  	top: 50%;
+	  	left: 52%;
+	  	transform: translate(-50%, -50%);
+	  	-ms-transform: translate(-50%, -50%);
+	  	transition: .5s ease;
+	}
+
+	div.website-img-div-overlay-btn {
+		background-color: #e8634e;
+		color: white;
+		font-size: 1.5em;
+	  	padding: 16px 24px;
+	  	opacity: 1;
+	  	font-family: 'Roboto Slab', serif;
+	}
+
 
 	div.footer-title {
 		top:1.3em;
@@ -494,12 +564,12 @@ p.copyright-info {
 		width: 12em;
 		text-align: center;
 	}
-
+*/
 }
 
 @media screen and (max-width: 1343px) {
 
-	div.section-div-content-subdiv {
+	/*div.section-div-content-subdiv {
 		width: 30%;
 
 		float: left;
@@ -573,7 +643,7 @@ p.copyright-info {
 		font-size: 1.4em;
 		width: 12em;
 		text-align: center;
-	}
+	}*/
 }
 
 
@@ -592,9 +662,7 @@ p.copyright-info {
 	div.website-img-div {
 		width: 280px;
 		height: 280px;
-		overflow: hidden;
-		border-radius: 150px;
-		cursor: pointer;
+	
 	}
 
 	div.website-img-div img {
@@ -604,27 +672,33 @@ p.copyright-info {
 
 	div.website-img-div-overlay {
 		position: absolute;
-		width: 280px;
-		height: 280px;
-		overflow: hidden;
-		border-radius: 150px;
-		z-index: 100;
-		background-color: black;
-		opacity: 0.7;
-	    filter: alpha(opacity=70);
-	    display: none;
+		opacity: 0;
 	    cursor: pointer;
+	  	top: 50%;
+	  	left: 52%;
+	  	transform: translate(-50%, -50%);
+	  	-ms-transform: translate(-50%, -50%);
+	  	transition: .5s ease;
 	}
 
-	div.website-img-div-overlay p {
-		font-family: 'Roboto Slab', serif;
-		color: white;
-		z-index: 120;
+	div.website-img-div-bg {
 		position: absolute;
-		left: 20%;
-		top: 45%;
-		font-size: 2.5em;
-		color: #e8634e;
+		width: 280px;
+		height: 280px;
+		background-color: #2a2a2a;
+		z-index: -5;
+		border-radius: 150px;
+		top: 0;
+	}
+
+	div.website-img-div-overlay-btn {
+		background-color: #e8634e;
+		color: white;
+		font-size: 1.7em;
+		width: 120px;
+	  	padding: 16px 22px;
+	  	opacity: 1;
+	  	font-family: 'Roboto Slab', serif;
 	}
 
 }
@@ -663,31 +737,26 @@ p.copyright-info {
 	}
 
 
-	div.website-img-div-overlay {
+	div.website-img-div-bg {
 		position: absolute;
 		width: 240px;
 		height: 240px;
-		overflow: hidden;
+		background-color: #2a2a2a;
+		z-index: -5;
 		border-radius: 150px;
-		z-index: 100;
-		background-color: black;
-		opacity: 0.7;
-	    filter: alpha(opacity=70);
-	    display: none;
-	    cursor: pointer;
+		top: 0;
 	}
 
-	div.website-img-div-overlay p {
-		font-family: 'Roboto Slab', serif;
+	
+	div.website-img-div-overlay-btn {
+		background-color: #e8634e;
 		color: white;
-		z-index: 120;
-		position: absolute;
-		left: 20%;
-		top: 45%;
-		font-size: 2.5em;
-		color: #e8634e;
+		font-size: 1.5em;
+		width: 100px;
+	  	padding: 16px 26px;
+	  	opacity: 1;
+	  	font-family: 'Roboto Slab', serif;
 	}
-
 
 	div.section-div-subtitle {
 		font-family: 'Roboto Slab', serif;
@@ -701,6 +770,11 @@ p.copyright-info {
 		left: 38%;
 		background-color: #e5e2d3;
 
+	}
+
+	div.website-img-div-overlay {
+	
+	  	left: 48%;
 	}
 
 
@@ -773,32 +847,6 @@ p.copyright-info {
 	}
 
 
-	div.website-img-div-overlay {
-		position: absolute;
-		width: 240px;
-		height: 240px;
-		overflow: hidden;
-		border-radius: 150px;
-		z-index: 100;
-		background-color: black;
-		opacity: 0.7;
-	    filter: alpha(opacity=70);
-	    display: none;
-	    cursor: pointer;
-	}
-
-	div.website-img-div-overlay p {
-		font-family: 'Roboto Slab', serif;
-		color: white;
-		z-index: 120;
-		position: absolute;
-		left: 20%;
-		top: 45%;
-		font-size: 2.5em;
-		color: #e8634e;
-	}
-
-
 	div.section-div-subtitle {
 		font-family: 'Roboto Slab', serif;
 		font-size: 1.8em;
@@ -860,6 +908,11 @@ p.copyright-info {
 		top: -3.6em;
 		width:130px;
 	}
+
+	div.website-img-div-overlay {
+	  	left: 50%;
+	}
+
 }
 
 @media screen and (max-width: 1136px) {
@@ -903,19 +956,7 @@ p.copyright-info {
 	}
 
 
-	div.website-img-div-overlay {
-		position: absolute;
-		width: 220px;
-		height: 220px;
-		overflow: hidden;
-		border-radius: 150px;
-		z-index: 100;
-		background-color: black;
-		opacity: 0.7;
-	    filter: alpha(opacity=70);
-	    display: none;
-	    cursor: pointer;
-	}
+	
 
 	div.website-img-div-overlay p {
 		font-family: 'Roboto Slab', serif;
@@ -927,6 +968,17 @@ p.copyright-info {
 		font-size: 2em;
 		color: #e8634e;
 	}
+
+	div.website-img-div-bg {
+		position: absolute;
+		width: 220px;
+		height: 220px;
+		background-color: #2a2a2a;
+		z-index: -5;
+		border-radius: 150px;
+		top: 0;
+	}
+
 
 
 	div.section-div-subtitle {
@@ -987,6 +1039,12 @@ p.copyright-info {
 
 }
 
+@media screen and (max-width: 1088px) {
+	div.website-img-div-overlay {
+	  	left: 53%;
+	}
+}
+
 @media screen and (max-width: 1062px) {
 
 	div.section-div-content-subdiv {
@@ -1013,28 +1071,27 @@ p.copyright-info {
 
 
 	div.website-img-div-overlay {
+		left: 50%;
+	}
+
+	div.website-img-div-bg {
 		position: absolute;
 		width: 190px;
 		height: 190px;
-		overflow: hidden;
+		background-color: #2a2a2a;
+		z-index: -5;
 		border-radius: 150px;
-		z-index: 100;
-		background-color: black;
-		opacity: 0.7;
-	    filter: alpha(opacity=70);
-	    display: none;
-	    cursor: pointer;
+		top: 0;
 	}
 
-	div.website-img-div-overlay p {
-		font-family: 'Roboto Slab', serif;
+	div.website-img-div-overlay-btn {
+		background-color: #e8634e;
 		color: white;
-		z-index: 120;
-		position: absolute;
-		left: 20%;
-		top: 45%;
-		font-size: 2em;
-		color: #e8634e;
+		font-size: 1.4em;
+	  	padding: 12px 15px;
+	  	width: 95px;
+	  	opacity: 1;
+	  	font-family: 'Roboto Slab', serif;
 	}
 
 
@@ -1090,6 +1147,12 @@ p.copyright-info {
 
 }
 
+@media screen and (max-width: 990px) {
+	div.website-img-div-overlay {
+		left: 54%;
+	}
+}
+
 @media screen and (max-width: 974px) {
 
 	div.section-div-content-subdiv {
@@ -1124,29 +1187,28 @@ p.copyright-info {
 
 
 	div.website-img-div-overlay {
+		left: 50%;
+	}
+
+	div.website-img-div-bg {
 		position: absolute;
 		width: 400px;
 		height: 400px;
-		overflow: hidden;
+		background-color: #2a2a2a;
+		z-index: -5;
 		border-radius: 200px;
-		z-index: 100;
-		background-color: black;
-		opacity: 0.7;
-	    filter: alpha(opacity=70);
-	    display: none;
-	    cursor: pointer;
-	    left: 5em;
+		top: 0;
+		left: 5em;
 	}
 
-	div.website-img-div-overlay p {
-		font-family: 'Roboto Slab', serif;
+	div.website-img-div-overlay-btn {
+		background-color: #e8634e;
 		color: white;
-		z-index: 120;
-		position: absolute;
-		left: 25%;
-		top: 45%;
-		font-size: 3em;
-		color: #e8634e;
+		font-size: 2.2em;
+	  	padding: 16px 24px;
+	  	width: 150px;
+	  	opacity: 1;
+	  	font-family: 'Roboto Slab', serif;
 	}
 
 
@@ -1186,63 +1248,24 @@ p.copyright-info {
 	}
 }
 
-@media screen and (max-width: 930px) {
-	div.section-div-title p {
-		font-family: 'Roboto Slab', serif;
-		font-size: 1.8em;
-		color:#e8634e;
-		width: 200px;
-
-		text-align: center;
-		position: absolute;
-		top: -0.4em;
-		left: 33%;
-		background-color: #e5e2d3;
-	}
-
-	div.section-div-subtitle {
-		font-family: 'Roboto Slab', serif;
-		font-size: 1.8em;
-		color:#e8634e;
-		width: 210px;
-		/*border: 1px solid black;*/
-		text-align: center;
-		position: absolute;
-		top: -0.4em;
-		left: 31%;
-		background-color: #e5e2d3;
-	}
-
-
-	div.footer-title {
-		top:1.3em;
-		display: block;
-		position: absolute;
-		left: 38%;
-		font-family: 'Roboto Slab', serif;
-		color: #e5e2d3;
-		background-color: #e8634e;
-		font-size: 1.8em;
-		width: 8em;
-		text-align: center;
-		margin-bottom: 1em;
-	}
-
-	div.contacts-info {
-		top:4.5em;
-		display: block;
-		position: absolute;
-		left: 36%;
-		font-family: 'Roboto Slab', serif;
-		color: #e5e2d3;
-		background-color: #e8634e;
-		font-size: 1.4em;
-		width: 12em;
-		text-align: center;
-	}
-}
 
 @media screen and (max-width: 930px) {
+
+	div.website-img-div-bg {
+	
+		display: none;
+	}
+
+
+
+	div.section-div-content-subdiv:hover .website-img-div  {
+		opacity: 0.1;
+	}
+
+	div.section-div-content-subdiv:hover .website-img-div-overlay {
+		opacity: 1;
+		
+	}
 
 
 	div.profile-img-decorator {
@@ -1322,19 +1345,7 @@ p.copyright-info {
 
 
 	div.website-img-div-overlay {
-		position: absolute;
-		width: 400px;
-		height: 400px;
-		overflow: hidden;
-		border-radius: 200px;
-		z-index: 100;
-		background-color: black;
-		opacity: 0.7;
-	    filter: alpha(opacity=70);
-	    display: none;
-	    cursor: pointer;
-	    left: 5em;
-	    display: none;
+		
 	}
 
 	div.footer-title {
