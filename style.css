@@ -71,6 +71,7 @@ div.container {
 	padding-left: 12em;
 	padding-right: 12em;
 	overflow:hidden;
+	width: 100%;
 }
 
 div.container .nav {
