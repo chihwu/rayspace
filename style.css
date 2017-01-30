@@ -70,7 +70,7 @@ div.header-deco-bar {
 div.container {
 	padding-left: 12em;
 	padding-right: 12em;
-	overflow-x:hidden;
+	overflow:hidden;
 }
 
 div.container .nav {
