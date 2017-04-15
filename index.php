@@ -43,7 +43,7 @@
 					<img src="images/Ray_logo.png" />
 				</div>
 				<div class="profile-img-inner-div">
-					<img src="images/Raymond.png" />
+					<img src="images/Raymond.png" width="400px"/>
 				</div>
 				<div class="profile-caption">
 					<p>HELLO, I'M RAYMOND</p>
