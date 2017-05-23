@@ -119,6 +119,29 @@
 				<div class="section-div-title-decorator">
 					<div class="section-div-title-decorator-bar"></div>
 					<div class="section-div-title">
+						<p>CERTIFICATIONS</p>
+					</div>
+
+					<div class="section-div-content">
+						<div class="section-div-content-subdiv">
+							<img src="images/certificates/ChihYungWu_PHP_certified.png" width="100%" />
+						</div>
+
+						<div class="section-div-content-subdiv">
+							<img src="images/certificates/ChihYungWu_MS_H_J_C.png" width="100%" />
+						</div>
+
+						<div class="section-div-content-subdiv">
+							<img src="images/certificates/ChihYungWu_MS_Professional.png" width="100%" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section-div">
+				<div class="section-div-title-decorator">
+					<div class="section-div-title-decorator-bar"></div>
+					<div class="section-div-title">
 						<p>PORTFOLIO</p>
 					</div>
 

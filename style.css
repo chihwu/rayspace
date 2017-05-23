@@ -100,7 +100,7 @@ div.profile-caption {
 	top: 68%;
 	font-family: 'Roboto Slab', serif;
 	color: #e8634e;
-	font-size: 4.3em;
+	font-size: 3.8em;
 }
 
 div.profile-caption p {
@@ -141,12 +141,12 @@ div.section-div-title p {
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.8em;
 	color:#e8634e;
-	width: 200px;
+	width: 300px;
 	/*border: 1px solid black;*/
 	text-align: center;
 	position: absolute;
 	top: -0.4em;
-	left: 40%;
+	left: 36%;
 	background-color: #e5e2d3;
 }
 
@@ -488,6 +488,8 @@ p.copyright-info {
 
 
 @media screen and (max-width: 1356px) {
+
+
 
 	/*div.section-div-content-subdiv {
 		width: 30%;
