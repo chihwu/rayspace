@@ -206,7 +206,7 @@
 							</div>
 							
 							<div class="website-img-div">
-								<a href="http://bookswap.space/home" target="_blank"><img src="images/websites/bookswap.png" /></a>
+								<a href="http://immense-river-34167.herokuapp.com/home" target="_blank"><img src="images/websites/bookswap.png" /></a>
 							</div>
 							<div class="website-img-div-bg">
 							</div>
@@ -217,7 +217,7 @@
 								<div class="website-img-div-overlay-btn">Click Me</div>
 							</div>
 							<div class="website-img-div">
-								<a href="http://connoisseurs.space/" target="_blank"><img src="images/websites/connoisseurs.png"/></a>
+								<a href="http://vast-oasis-64610.herokuapp.com/" target="_blank"><img src="images/websites/connoisseurs.png"/></a>
 							</div>
 							<div class="website-img-div-bg">
 							</div>
@@ -252,7 +252,7 @@
 								<div class="website-img-div-overlay-btn">Click Me</div>
 							</div>
 							<div class="website-img-div">
-								<a href="http://fu-xin-tang.com/" target="_blank"><img src="images/websites/fu-xin-tang.png"/></a>
+								<a href="http://secure-wildwood-44083.herokuapp.com" target="_blank"><img src="images/websites/fu-xin-tang.png"/></a>
 							</div>
 							<div class="website-img-div-bg">
 							</div>
