@@ -143,6 +143,10 @@
 						<div class="section-div-content-subdiv">
 							<img src="images/certificates/ChihYungWu_MS_Professional.png" width="100%" />
 						</div>
+
+						<div class="section-div-content-subdiv">
+							<img src="images/certificates/ChihYungWu_Oracle_certified.jpeg" width="100%" />
+						</div>
 					</div>
 				</div>
 			</div>
