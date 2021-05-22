@@ -62,10 +62,7 @@
 
 			<div class="section-div">
 				<div class="section-div-title-decorator">
-					<div class="section-div-title-decorator-bar"></div>
-					<div class="section-div-title">
-						<p>ABOUT</p>
-					</div>
+			
 
 					<a href="images/Raymond Wu's Resume.pdf" target="_blank" class="resume-div-anchor">
 						<div class="resume-div">
@@ -73,8 +70,8 @@
 						</div>
 					</a>
 
-					<div class="section-div-content" style="margin-left: 2em">
-						<div class="section-div-content-subdiv" style="padding: 1em;">
+					<div class="flex-container">
+						<div class="" style="padding: 1em; text-align: center">
 							<div class="section-div-content-subdiv-title">
 								<p>ABOUT ME
 								</p>
@@ -88,37 +85,6 @@
 
 							<div class="section-div-content-subdiv-bar-decorator">
 							</div>
-						</div>
-
-						<div class="section-div-content-subdiv" style="padding: 1em;">
-							<div class="section-div-content-subdiv-title">
-								<p>WHAT I'VE DONE
-								</p>
-							</div>
-
-							<div class="section-div-content-subdiv-bar-decorator"></div>
-
-							<div class="section-div-content-subdiv-content">
-								As a developer having strong interest in web and application development, in the past I had devoted significant amount of time on developing various web application projects using various languages and technologies. I have rich experience of working on different projects using varius languages, such as PHP, Java, and Python, etc. In addition to languages, I am also experienced in various technologies, such as Amazon Web Services, GitHub, Apache2, Linux, Redis, and Docker, etc.
-							</div>
-
-							<div class="section-div-content-subdiv-bar-decorator"></div>
-						</div>
-
-						<div class="section-div-content-subdiv" style="padding: 1em;">
-							<div class="section-div-content-subdiv-title">
-								<p>WHAT I DO
-								</p>
-							</div>
-
-							<div class="section-div-content-subdiv-bar-decorator"></div>
-
-							<div class="section-div-content-subdiv-content">
-								I am currently working as a software developer in a digital marketing firm in Newton, MA. During the work, I am
-								heavily involved in web and application devlopment projects for different clients and for the company. For instance, I was in charge of creating an application used as a CMS for landing pages creation and analysis for the company. In addition to the development work, every now and then I was also involved in the tasks of exploring various new technologies and configure them so that they can be taken advantages by the company.
-								In the past, I was also involved in research projects at BU regarding to web application development and machine learning. For example, application of machine learning in analysis of malicious and benign Android applications.
-							</div>
-							<div class="section-div-content-subdiv-bar-decorator"></div>
 						</div>
 					</div>
 				</div>
