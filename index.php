@@ -178,6 +178,17 @@
 							</div>
 							
 							<div class="website-img-div">
+								<a href="https://palette-2021.web.app/" target="_blank"><img src="images/websites/palette.png" /></a>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div>
+							
+							<div class="website-img-div">
 								<a href="http://hdxdev.abtsites.com/" target="_blank"><img src="images/websites/hdx.png" /></a>
 							</div>
 							<div class="website-img-div-bg">
