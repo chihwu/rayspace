@@ -48,11 +48,11 @@
 			</div>
 
 			<div class="profile-img-div">
-				<div class="profile-img-decorator">
+				<!-- <div class="profile-img-decorator">
 					<img src="images/Ray_logo.png" />
-				</div>
+				</div> -->
 				<div class="profile-img-inner-div">
-					<img src="images/Raymond.png"/>
+					<img src="images/Raymond.jpg"/>
 				</div>
 				<div class="profile-caption">
 					<p>HI, I'M RAYMOND WU.</p>
@@ -172,6 +172,39 @@
 					</div> -->
 
 					<div class="flex-container">
+						<div class="section-div-content-subdiv">
+							<div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div>
+							
+							<div class="website-img-div">
+								<a href="https://www.gbcsgroup.com/future-green-fleet-solutions/" target="_blank"><img src="images/websites/general-landing.png" /></a>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div>
+							
+							<div class="website-img-div">
+								<a href="https://skyit.services/orion/" target="_blank"><img src="images/websites/orion-landing.png" /></a>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div>
+							
+							<div class="website-img-div">
+								<a href="https://www.gbcsgroup.com/aukai/" target="_blank"><img src="images/websites/aukai-landing.png" /></a>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
 						<div class="section-div-content-subdiv">
 							<div class="website-img-div-overlay">
 								<div class="website-img-div-overlay-btn">Click Me</div>
@@ -298,7 +331,7 @@
 							<div class="website-img-div-bg">
 							</div>
 						</div>
-
+<!-- 
 						<div class="section-div-content-subdiv">
 							<div class="website-img-div-overlay">
 								<div class="website-img-div-overlay-btn">Click Me</div>
@@ -319,8 +352,8 @@
 							</div>
 							<div class="website-img-div-bg">
 							</div>
-						</div>
-
+						</div> -->
+<!-- 
 						<div class="section-div-content-subdiv">
 							<div class="website-img-div-overlay">
 								<div class="website-img-div-overlay-btn">Click Me</div>
@@ -340,7 +373,7 @@
 							</div>
 							<div class="website-img-div-bg">
 							</div>
-						</div>
+						</div> -->
 					</div>
 
 
