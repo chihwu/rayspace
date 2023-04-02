@@ -62,7 +62,6 @@
 
 			<div class="section-div">
 				<div class="section-div-title-decorator">
-			
 
 					<a href="images/Raymond Wu's Resume.pdf" target="_blank" class="resume-div-anchor">
 						<div class="resume-div">
@@ -80,7 +79,7 @@
 							<div class="section-div-content-subdiv-bar-decorator"></div>
 
 							<div class="section-div-content-subdiv-content">							
-								I am a full-stack software engineer with more than 4 years of developing both front-end and back-end modern applications. In addition, I have rich project experience in other fields such as computer graphics, Internet of Things, and Machines Learning. Currently, I am pursuing a master degree of system engineering in automation at McMaster University with the goal of becoming a well-rounded engineer both in hardware and software. 
+								I am a full-stack and creative software engineer with more than 6 years of developing both front-end and back-end modern applications. In addition, I have rich project experience in other fields such as computer graphics, Internet of Things, and Machines Learning. Currently, I am pursuing a master degree of system engineering in automation at McMaster University with the goal of becoming a well-rounded engineer both in hardware and software. 
 							</div>
 
 							<div class="section-div-content-subdiv-bar-decorator">
@@ -161,7 +160,133 @@
 				<div class="section-div-title-decorator">
 					<div class="section-div-title-decorator-bar"></div>
 					<div class="section-div-title">
-						<p><span>&#9733;</span> PORTFOLIO <span>&#9733;</span></p>
+						<p><span>&#9733;</span> 3D Work <span>&#9733;</span></p>
+					</div>
+					<div class="flex-container">
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/robot.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/Custom Particles.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/Custom Physics Engine.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/Axibo Robot 2.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/Axibo Shot.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/Driving Simulator.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/axibo.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<img src="videos/headphone-model.png" style="margin-top: 20%;" />
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<img src="videos/girl-model.png" style="margin-top: 20%;" />
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+					</div>
+
+					<div class="section-div-title">
+						<p><span>&#9733;</span> Web Apps <span>&#9733;</span></p>
 					</div>
 
 					<!-- <div class="section-div-sub-decorator-div">
@@ -443,10 +568,11 @@
 			</div> -->
 
 			<div class="contacts-info">
-				<p>Tel: 905-865-9884</p>
+				<p>289-689-8742</p>
+				<!-- <p>Tel: 905-865-9884</p> -->
 				<p>Email: chihwu@bu.edu</p>
 
-				<p class="copyright-info">@2021 by Raymond Wu</p>
+				<p class="copyright-info">@2022 by Raymond Wu</p>
 			</div>
 
 
