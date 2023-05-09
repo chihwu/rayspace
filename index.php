@@ -170,6 +170,34 @@
 							
 							<div class="website-img-div">
 								<video width="320" height="240" controls>
+									<source src="videos/Maze-Runner.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/Bi-Shan-Yan-Metaverse.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
 									<source src="videos/robot.mp4" type="video/mp4">
 								  	Your browser does not support the video tag.
 								</video>
