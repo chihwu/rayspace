@@ -170,6 +170,76 @@
 							
 							<div class="website-img-div">
 								<video width="320" height="240" controls>
+									<source src="videos/Crash.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/panini.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/gotg3.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/solar app.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
+									<source src="videos/3d property.mp4" type="video/mp4">
+								  	Your browser does not support the video tag.
+								</video>
+							</div>
+							<div class="website-img-div-bg">
+							</div>
+						</div>
+						<div class="section-div-content-subdiv">
+							<!-- <div class="website-img-div-overlay">
+								<div class="website-img-div-overlay-btn">Click Me</div>
+							</div> -->
+							
+							<div class="website-img-div">
+								<video width="320" height="240" controls>
 									<source src="videos/Maze-Runner.mp4" type="video/mp4">
 								  	Your browser does not support the video tag.
 								</video>
